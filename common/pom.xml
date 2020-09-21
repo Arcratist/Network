@@ -32,5 +32,11 @@
             <scope>compile</scope>
             <classifier>osx-x86_64</classifier>
         </dependency>
+        <dependency>
+            <groupId>com.github.Arcratist</groupId>
+            <artifactId>streamsupport-concurrent</artifactId>
+            <version>ce45f728e4</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>

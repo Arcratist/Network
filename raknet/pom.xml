@@ -24,5 +24,10 @@
             <version>${netty.version}</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.Arcratist</groupId>
+            <artifactId>streamsupport-concurrent</artifactId>
+            <version>ce45f728e4</version>
+        </dependency>
     </dependencies>
 </project>

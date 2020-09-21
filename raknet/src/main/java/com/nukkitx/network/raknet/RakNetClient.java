@@ -11,7 +11,12 @@ import lombok.RequiredArgsConstructor;
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.net.InetSocketAddress;
 import java.util.Iterator;
-import java.util.concurrent.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+
+import java8.util.concurrent.CompletableFuture;
 
 import static com.nukkitx.network.raknet.RakNetConstants.*;
 

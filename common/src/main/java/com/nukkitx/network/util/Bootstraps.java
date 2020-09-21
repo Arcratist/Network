@@ -11,7 +11,7 @@ import io.netty.channel.unix.UnixChannelOption;
 import lombok.experimental.UtilityClass;
 
 import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
+import java8.util.concurrent.CompletableFuture;
 
 import static com.nukkitx.network.util.EventLoops.CHANNEL_TYPE;
 
